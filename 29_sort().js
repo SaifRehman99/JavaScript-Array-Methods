@@ -21,9 +21,9 @@ console.log(numbers.sort())
 
 
 // you can fix it using compare function (Ascending)
-console.log(numbers.sort((a,b) => a-b))
+console.log(numbers.sort((a, b) => a - b))
 
 
 
 // you can fix it using compare function (Descending)
-console.log(numbers.sort((a,b) => b-a))
+console.log(numbers.sort((a, b) => b - a))
