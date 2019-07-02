@@ -1,7 +1,22 @@
 // it finds the first presence and return
 
 
-let numbers = [1, 5, 9, 12, 21, 35, 19, 21];
+let numbers = [
+    {
+        id: 1,
+        name: 'ok'
+    },
+    {
+        id: 2,
+        name: 'ok1'
+    },
+    {
+        id: 3,
+        name: 'ok2'
+    }
+];
 
-let find = numbers.find((num) => num >= 19);
+
+// check for the item and return the complete that item
+let find = numbers.find((num) => num.id === 2);
 console.log(find)
