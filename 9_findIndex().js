@@ -1,29 +1,8 @@
+// it also finds the first element index
 
-// =======================================Alpha Sort=======================================//
+// if found returns 1 otherwise -1;
 
+let numbers = [1, 5, 9, 21, 112, 35, 19, 21];
 
-// It sorts alphabetically
-let names = ['Saif', 'Qadir', 'Ali', 'Farukh', 'Kamran', 'Ibad'];
-console.log(names.sort())
-
-
-// You can reverse the array using reverse
-console.log(names.reverse());
-
-
-
-//=======================================Numeric Sort=======================================//
-
-let numbers = [40, 100, 1, 5, 25, 10, 2, 3, 65, 9, 12, 88];
-
-// it sort by the first number so '3' is greater then '100'
-console.log(numbers.sort())
-
-
-// you can fix it using compare function (Ascending)
-console.log(numbers.sort((a,b) => a-b))
-
-
-
-// you can fix it using compare function (Descending)
-console.log(numbers.sort((a,b) => b-a))
+let findIndex = numbers.findIndex((index) => index === 12);
+console.log(findIndex);

@@ -1,29 +1,7 @@
-
-// =======================================Alpha Sort=======================================//
-
-
-// It sorts alphabetically
-let names = ['Saif', 'Qadir', 'Ali', 'Farukh', 'Kamran', 'Ibad'];
-console.log(names.sort())
+// it finds the first presence and return
 
 
-// You can reverse the array using reverse
-console.log(names.reverse());
+let numbers = [1, 5, 9, 12, 21, 35, 19, 21];
 
-
-
-//=======================================Numeric Sort=======================================//
-
-let numbers = [40, 100, 1, 5, 25, 10, 2, 3, 65, 9, 12, 88];
-
-// it sort by the first number so '3' is greater then '100'
-console.log(numbers.sort())
-
-
-// you can fix it using compare function (Ascending)
-console.log(numbers.sort((a,b) => a-b))
-
-
-
-// you can fix it using compare function (Descending)
-console.log(numbers.sort((a,b) => b-a))
+let find = numbers.find((num) => num >= 19);
+console.log(find)

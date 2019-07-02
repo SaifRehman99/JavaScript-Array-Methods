@@ -1,29 +1,7 @@
+// The copyWithin() method copies array elements to another position in the array, overwriting the existing values.
+// this method overwrites the original array not add the elements
 
-// =======================================Alpha Sort=======================================//
+// array.copyWithin(target (copy element to), start (def 0), end)
 
-
-// It sorts alphabetically
-let names = ['Saif', 'Qadir', 'Ali', 'Farukh', 'Kamran', 'Ibad'];
-console.log(names.sort())
-
-
-// You can reverse the array using reverse
-console.log(names.reverse());
-
-
-
-//=======================================Numeric Sort=======================================//
-
-let numbers = [40, 100, 1, 5, 25, 10, 2, 3, 65, 9, 12, 88];
-
-// it sort by the first number so '3' is greater then '100'
-console.log(numbers.sort())
-
-
-// you can fix it using compare function (Ascending)
-console.log(numbers.sort((a,b) => a-b))
-
-
-
-// you can fix it using compare function (Descending)
-console.log(numbers.sort((a,b) => b-a))
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.copyWithin(2, 0);
