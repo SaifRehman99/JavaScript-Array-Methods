@@ -17,6 +17,6 @@ let numbers = [
 ];
 
 
-// check for the item and return the complete that item
+// check for the first searched item and return the complete that item
 let find = numbers.find((num) => num.id === 2);
 console.log(find)
