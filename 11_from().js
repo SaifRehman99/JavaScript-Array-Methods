@@ -1,4 +1,4 @@
-//Create an Array from a String:
+//Create an Array of each letter from a String:
 
 let words = 'this is saif ur rehman';
 
