@@ -8,3 +8,19 @@ let result = num.reduce((res, total) => {
 }, 0);
 
 console.log(result);
+
+
+// it makes an array of all the colours
+let colours = [
+    { clr: 'red' },
+    { clr: 'green' },
+    { clr: 'yellow' },
+    { clr: 'pink' }
+];
+
+
+colours.reduce((pre, add) => {
+    pre.push(add.clr)
+    return pre;
+
+}, [])
